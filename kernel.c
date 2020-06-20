@@ -7,10 +7,10 @@ extern kattr;
 void _start(void) {
     kY = 18;
     kattr = 0x5e;
-    print("un message\n");
+    print("%s\n","un message");
 
     kattr = 0x4e;
-    print("un autre message\n");
+    print("%s\n","un autre message");
 
     scrollup(2);
 
